@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040319B81F29C1C800FF8827 /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 040319B71F29C1C800FF8827 /* rotate.png */; };
+		040319BB1F29E08800FF8827 /* ClipOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040319BA1F29E08800FF8827 /* ClipOverlayView.m */; };
+		040319C01F29E59300FF8827 /* leftBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040319BC1F29E59300FF8827 /* leftBottom@2x.png */; };
+		040319C11F29E59300FF8827 /* leftTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040319BD1F29E59300FF8827 /* leftTop@2x.png */; };
+		040319C21F29E59300FF8827 /* rightBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040319BE1F29E59300FF8827 /* rightBottom@2x.png */; };
+		040319C31F29E59300FF8827 /* rightTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040319BF1F29E59300FF8827 /* rightTop@2x.png */; };
+		04890ED41F2ACF9500467E4A /* ClipOverlayDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 04890ED31F2ACF9500467E4A /* ClipOverlayDrag.m */; };
+		04890EDA1F2B382200467E4A /* ClipOverlayLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04890ED91F2B382200467E4A /* ClipOverlayLine.m */; };
+		048A833F1F385343001AC113 /* UIImage+ClipImgae.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A833E1F385343001AC113 /* UIImage+ClipImgae.m */; };
+		04EB002B1F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB00221F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.m */; };
+		04EB002C1F28475E00CF37D5 /* UIColor+HYDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB00241F28475E00CF37D5 /* UIColor+HYDColor.m */; };
+		04EB002D1F28475E00CF37D5 /* UIView+HYDUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB00261F28475E00CF37D5 /* UIView+HYDUIView.m */; };
+		04EB00371F2847B400CF37D5 /* BeautyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB00361F2847B400CF37D5 /* BeautyViewController.m */; };
+		04EB003B1F284AC800CF37D5 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB003A1F284AC800CF37D5 /* BottomView.m */; };
+		04EB005E1F284B7600CF37D5 /* barBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB003D1F284B7600CF37D5 /* barBg.png */; };
+		04EB005F1F284B7600CF37D5 /* btyView_breakline.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB003E1F284B7600CF37D5 /* btyView_breakline.png */; };
+		04EB00601F284B7600CF37D5 /* enhance.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB003F1F284B7600CF37D5 /* enhance.png */; };
+		04EB00611F284B7600CF37D5 /* enhanceHover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00401F284B7600CF37D5 /* enhanceHover.png */; };
+		04EB00621F284B7600CF37D5 /* beauty_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00421F284B7600CF37D5 /* beauty_color.png */; };
+		04EB00631F284B7600CF37D5 /* beauty_color_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00431F284B7600CF37D5 /* beauty_color_hover.png */; };
+		04EB00641F284B7600CF37D5 /* beauty_effect.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00441F284B7600CF37D5 /* beauty_effect.png */; };
+		04EB00651F284B7600CF37D5 /* beauty_effect_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00451F284B7600CF37D5 /* beauty_effect_hover.png */; };
+		04EB00661F284B7600CF37D5 /* beauty_effects.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00461F284B7600CF37D5 /* beauty_effects.png */; };
+		04EB00671F284B7600CF37D5 /* beauty_effects_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00471F284B7600CF37D5 /* beauty_effects_hover.png */; };
+		04EB00681F284B7600CF37D5 /* beauty_Emptiness.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00481F284B7600CF37D5 /* beauty_Emptiness.png */; };
+		04EB00691F284B7600CF37D5 /* beauty_Emptiness_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00491F284B7600CF37D5 /* beauty_Emptiness_hover.png */; };
+		04EB006A1F284B7600CF37D5 /* beauty_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB004A1F284B7600CF37D5 /* beauty_frame.png */; };
+		04EB006B1F284B7600CF37D5 /* beauty_frame_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB004B1F284B7600CF37D5 /* beauty_frame_hover.png */; };
+		04EB006C1F284B7600CF37D5 /* beauty_lightdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB004C1F284B7600CF37D5 /* beauty_lightdark.png */; };
+		04EB006D1F284B7600CF37D5 /* beauty_lightdark_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB004D1F284B7600CF37D5 /* beauty_lightdark_hover.png */; };
+		04EB006E1F284B7600CF37D5 /* beauty_Sharpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB004E1F284B7600CF37D5 /* beauty_Sharpen.png */; };
+		04EB006F1F284B7600CF37D5 /* beauty_Sharpen_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB004F1F284B7600CF37D5 /* beauty_Sharpen_hover.png */; };
+		04EB00701F284B7600CF37D5 /* beauty_word.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00501F284B7600CF37D5 /* beauty_word.png */; };
+		04EB00711F284B7600CF37D5 /* beauty_word_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00511F284B7600CF37D5 /* beauty_word_hover.png */; };
+		04EB00721F284B7600CF37D5 /* BeautyMainViewEnvironment.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00521F284B7600CF37D5 /* BeautyMainViewEnvironment.png */; };
+		04EB00731F284B7600CF37D5 /* BeautyMainViewEnvironmentHover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00531F284B7600CF37D5 /* BeautyMainViewEnvironmentHover.png */; };
+		04EB00741F284B7600CF37D5 /* BeautyMainViewSeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00541F284B7600CF37D5 /* BeautyMainViewSeal.png */; };
+		04EB00751F284B7600CF37D5 /* BeautyMainViewSealHover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00551F284B7600CF37D5 /* BeautyMainViewSealHover.png */; };
+		04EB00761F284B7600CF37D5 /* crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00561F284B7600CF37D5 /* crop.png */; };
+		04EB00771F284B7600CF37D5 /* crop_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00571F284B7600CF37D5 /* crop_press.png */; };
+		04EB00781F284B7600CF37D5 /* photograph.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00581F284B7600CF37D5 /* photograph.png */; };
+		04EB00791F284B7600CF37D5 /* photograph_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB00591F284B7600CF37D5 /* photograph_hover.png */; };
+		04EB007A1F284B7600CF37D5 /* scene.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB005A1F284B7600CF37D5 /* scene.png */; };
+		04EB007B1F284B7600CF37D5 /* scene_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB005B1F284B7600CF37D5 /* scene_hover.png */; };
+		04EB007C1F284B7600CF37D5 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB005C1F284B7600CF37D5 /* share.png */; };
+		04EB007D1F284B7600CF37D5 /* TopBarBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB005D1F284B7600CF37D5 /* TopBarBg.png */; };
+		04EB00801F2883C400CF37D5 /* BeautyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB007F1F2883C400CF37D5 /* BeautyButton.m */; };
+		04EBFFB61F283F8A00CF37D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFB51F283F8A00CF37D5 /* main.m */; };
+		04EBFFB91F283F8A00CF37D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFB81F283F8A00CF37D5 /* AppDelegate.m */; };
+		04EBFFBC1F283F8A00CF37D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFBB1F283F8A00CF37D5 /* ViewController.m */; };
+		04EBFFBF1F283F8A00CF37D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EBFFBD1F283F8A00CF37D5 /* Main.storyboard */; };
+		04EBFFC11F283F8A00CF37D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EBFFC01F283F8A00CF37D5 /* Assets.xcassets */; };
+		04EBFFC41F283F8A00CF37D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EBFFC21F283F8A00CF37D5 /* LaunchScreen.storyboard */; };
+		04EBFFCF1F283F8A00CF37D5 /* poco_CropImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFCE1F283F8A00CF37D5 /* poco_CropImageTests.m */; };
+		04EBFFDA1F283F8A00CF37D5 /* poco_CropImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFD91F283F8A00CF37D5 /* poco_CropImageUITests.m */; };
+		04EBFFED1F2843DB00CF37D5 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFEC1F2843DB00CF37D5 /* CropViewController.m */; };
+		04EBFFF01F28442A00CF37D5 /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFFEF1F28442A00CF37D5 /* ClipView.m */; };
+		04EBFFF31F2844DF00CF37D5 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBFFF11F2844DF00CF37D5 /* cancel.png */; };
+		04EBFFF41F2844DF00CF37D5 /* ensure.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBFFF21F2844DF00CF37D5 /* ensure.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EBFFCB1F283F8A00CF37D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EBFFA91F283F8A00CF37D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EBFFB01F283F8A00CF37D5;
+			remoteInfo = poco_CropImage;
+		};
+		04EBFFD61F283F8A00CF37D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EBFFA91F283F8A00CF37D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EBFFB01F283F8A00CF37D5;
+			remoteInfo = poco_CropImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040319B71F29C1C800FF8827 /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
+		040319B91F29E08800FF8827 /* ClipOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipOverlayView.h; sourceTree = "<group>"; };
+		040319BA1F29E08800FF8827 /* ClipOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipOverlayView.m; sourceTree = "<group>"; };
+		040319BC1F29E59300FF8827 /* leftBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftBottom@2x.png"; sourceTree = "<group>"; };
+		040319BD1F29E59300FF8827 /* leftTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftTop@2x.png"; sourceTree = "<group>"; };
+		040319BE1F29E59300FF8827 /* rightBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightBottom@2x.png"; sourceTree = "<group>"; };
+		040319BF1F29E59300FF8827 /* rightTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightTop@2x.png"; sourceTree = "<group>"; };
+		04890ED21F2ACF9500467E4A /* ClipOverlayDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipOverlayDrag.h; sourceTree = "<group>"; };
+		04890ED31F2ACF9500467E4A /* ClipOverlayDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipOverlayDrag.m; sourceTree = "<group>"; };
+		04890ED81F2B382200467E4A /* ClipOverlayLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipOverlayLine.h; sourceTree = "<group>"; };
+		04890ED91F2B382200467E4A /* ClipOverlayLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipOverlayLine.m; sourceTree = "<group>"; };
+		048A833D1F385343001AC113 /* UIImage+ClipImgae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ClipImgae.h"; sourceTree = "<group>"; };
+		048A833E1F385343001AC113 /* UIImage+ClipImgae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ClipImgae.m"; sourceTree = "<group>"; };
+		04EB00211F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HYDBarButtonItem.h"; sourceTree = "<group>"; };
+		04EB00221F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HYDBarButtonItem.m"; sourceTree = "<group>"; };
+		04EB00231F28475E00CF37D5 /* UIColor+HYDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HYDColor.h"; sourceTree = "<group>"; };
+		04EB00241F28475E00CF37D5 /* UIColor+HYDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HYDColor.m"; sourceTree = "<group>"; };
+		04EB00251F28475E00CF37D5 /* UIView+HYDUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HYDUIView.h"; sourceTree = "<group>"; };
+		04EB00261F28475E00CF37D5 /* UIView+HYDUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYDUIView.m"; sourceTree = "<group>"; };
+		04EB00281F28475E00CF37D5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04EB00351F2847B400CF37D5 /* BeautyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyViewController.h; sourceTree = "<group>"; };
+		04EB00361F2847B400CF37D5 /* BeautyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyViewController.m; sourceTree = "<group>"; };
+		04EB00391F284AC800CF37D5 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		04EB003A1F284AC800CF37D5 /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		04EB003D1F284B7600CF37D5 /* barBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barBg.png; sourceTree = "<group>"; };
+		04EB003E1F284B7600CF37D5 /* btyView_breakline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btyView_breakline.png; sourceTree = "<group>"; };
+		04EB003F1F284B7600CF37D5 /* enhance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enhance.png; sourceTree = "<group>"; };
+		04EB00401F284B7600CF37D5 /* enhanceHover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enhanceHover.png; sourceTree = "<group>"; };
+		04EB00421F284B7600CF37D5 /* beauty_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_color.png; sourceTree = "<group>"; };
+		04EB00431F284B7600CF37D5 /* beauty_color_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_color_hover.png; sourceTree = "<group>"; };
+		04EB00441F284B7600CF37D5 /* beauty_effect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_effect.png; sourceTree = "<group>"; };
+		04EB00451F284B7600CF37D5 /* beauty_effect_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_effect_hover.png; sourceTree = "<group>"; };
+		04EB00461F284B7600CF37D5 /* beauty_effects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_effects.png; sourceTree = "<group>"; };
+		04EB00471F284B7600CF37D5 /* beauty_effects_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_effects_hover.png; sourceTree = "<group>"; };
+		04EB00481F284B7600CF37D5 /* beauty_Emptiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_Emptiness.png; sourceTree = "<group>"; };
+		04EB00491F284B7600CF37D5 /* beauty_Emptiness_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_Emptiness_hover.png; sourceTree = "<group>"; };
+		04EB004A1F284B7600CF37D5 /* beauty_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_frame.png; sourceTree = "<group>"; };
+		04EB004B1F284B7600CF37D5 /* beauty_frame_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_frame_hover.png; sourceTree = "<group>"; };
+		04EB004C1F284B7600CF37D5 /* beauty_lightdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_lightdark.png; sourceTree = "<group>"; };
+		04EB004D1F284B7600CF37D5 /* beauty_lightdark_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_lightdark_hover.png; sourceTree = "<group>"; };
+		04EB004E1F284B7600CF37D5 /* beauty_Sharpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_Sharpen.png; sourceTree = "<group>"; };
+		04EB004F1F284B7600CF37D5 /* beauty_Sharpen_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_Sharpen_hover.png; sourceTree = "<group>"; };
+		04EB00501F284B7600CF37D5 /* beauty_word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_word.png; sourceTree = "<group>"; };
+		04EB00511F284B7600CF37D5 /* beauty_word_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty_word_hover.png; sourceTree = "<group>"; };
+		04EB00521F284B7600CF37D5 /* BeautyMainViewEnvironment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeautyMainViewEnvironment.png; sourceTree = "<group>"; };
+		04EB00531F284B7600CF37D5 /* BeautyMainViewEnvironmentHover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeautyMainViewEnvironmentHover.png; sourceTree = "<group>"; };
+		04EB00541F284B7600CF37D5 /* BeautyMainViewSeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeautyMainViewSeal.png; sourceTree = "<group>"; };
+		04EB00551F284B7600CF37D5 /* BeautyMainViewSealHover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeautyMainViewSealHover.png; sourceTree = "<group>"; };
+		04EB00561F284B7600CF37D5 /* crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop.png; sourceTree = "<group>"; };
+		04EB00571F284B7600CF37D5 /* crop_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop_press.png; sourceTree = "<group>"; };
+		04EB00581F284B7600CF37D5 /* photograph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photograph.png; sourceTree = "<group>"; };
+		04EB00591F284B7600CF37D5 /* photograph_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photograph_hover.png; sourceTree = "<group>"; };
+		04EB005A1F284B7600CF37D5 /* scene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene.png; sourceTree = "<group>"; };
+		04EB005B1F284B7600CF37D5 /* scene_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene_hover.png; sourceTree = "<group>"; };
+		04EB005C1F284B7600CF37D5 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		04EB005D1F284B7600CF37D5 /* TopBarBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBarBg.png; sourceTree = "<group>"; };
+		04EB007E1F2883C400CF37D5 /* BeautyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyButton.h; sourceTree = "<group>"; };
+		04EB007F1F2883C400CF37D5 /* BeautyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyButton.m; sourceTree = "<group>"; };
+		04EBFFB11F283F8A00CF37D5 /* poco_CropImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poco_CropImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EBFFB51F283F8A00CF37D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EBFFB71F283F8A00CF37D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04EBFFB81F283F8A00CF37D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04EBFFBA1F283F8A00CF37D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04EBFFBB1F283F8A00CF37D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04EBFFBE1F283F8A00CF37D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EBFFC01F283F8A00CF37D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EBFFC31F283F8A00CF37D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EBFFC51F283F8A00CF37D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EBFFCA1F283F8A00CF37D5 /* poco_CropImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poco_CropImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EBFFCE1F283F8A00CF37D5 /* poco_CropImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = poco_CropImageTests.m; sourceTree = "<group>"; };
+		04EBFFD01F283F8A00CF37D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EBFFD51F283F8A00CF37D5 /* poco_CropImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poco_CropImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EBFFD91F283F8A00CF37D5 /* poco_CropImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = poco_CropImageUITests.m; sourceTree = "<group>"; };
+		04EBFFDB1F283F8A00CF37D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EBFFEB1F2843DB00CF37D5 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
+		04EBFFEC1F2843DB00CF37D5 /* CropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropViewController.m; sourceTree = "<group>"; };
+		04EBFFEE1F28442A00CF37D5 /* ClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
+		04EBFFEF1F28442A00CF37D5 /* ClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
+		04EBFFF11F2844DF00CF37D5 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel.png; path = ../cancel.png; sourceTree = "<group>"; };
+		04EBFFF21F2844DF00CF37D5 /* ensure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ensure.png; path = ../ensure.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EBFFAE1F283F8A00CF37D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBFFC71F283F8A00CF37D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBFFD21F283F8A00CF37D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048A833C1F3852FC001AC113 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				048A833D1F385343001AC113 /* UIImage+ClipImgae.h */,
+				048A833E1F385343001AC113 /* UIImage+ClipImgae.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		04EB001F1F28475E00CF37D5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04EB00281F28475E00CF37D5 /* PrefixHeader.pch */,
+				04EB00201F28475E00CF37D5 /* Category */,
+				04EB00291F28475E00CF37D5 /* View */,
+				04EB002A1F28475E00CF37D5 /* ViewController */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		04EB00201F28475E00CF37D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04EB00211F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.h */,
+				04EB00221F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.m */,
+				04EB00231F28475E00CF37D5 /* UIColor+HYDColor.h */,
+				04EB00241F28475E00CF37D5 /* UIColor+HYDColor.m */,
+				04EB00251F28475E00CF37D5 /* UIView+HYDUIView.h */,
+				04EB00261F28475E00CF37D5 /* UIView+HYDUIView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04EB00291F28475E00CF37D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04EB00391F284AC800CF37D5 /* BottomView.h */,
+				04EB003A1F284AC800CF37D5 /* BottomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04EB002A1F28475E00CF37D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04EB002E1F28478200CF37D5 /* BeautyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04EB002F1F28478200CF37D5 /* Model */,
+				04EB00301F28478200CF37D5 /* View */,
+				04EB00331F28478200CF37D5 /* ViewController */,
+			);
+			path = BeautyViewController;
+			sourceTree = "<group>";
+		};
+		04EB002F1F28478200CF37D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04EB00301F28478200CF37D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04EB007E1F2883C400CF37D5 /* BeautyButton.h */,
+				04EB007F1F2883C400CF37D5 /* BeautyButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04EB00331F28478200CF37D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04EB00351F2847B400CF37D5 /* BeautyViewController.h */,
+				04EB00361F2847B400CF37D5 /* BeautyViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04EB003C1F284B7600CF37D5 /* beautyView_image */ = {
+			isa = PBXGroup;
+			children = (
+				04EB00411F284B7600CF37D5 /* icon_image */,
+				040319B71F29C1C800FF8827 /* rotate.png */,
+				04EBFFF11F2844DF00CF37D5 /* cancel.png */,
+				04EBFFF21F2844DF00CF37D5 /* ensure.png */,
+				04EB003D1F284B7600CF37D5 /* barBg.png */,
+				04EB003E1F284B7600CF37D5 /* btyView_breakline.png */,
+				04EB003F1F284B7600CF37D5 /* enhance.png */,
+				04EB00401F284B7600CF37D5 /* enhanceHover.png */,
+				04EB00581F284B7600CF37D5 /* photograph.png */,
+				04EB00591F284B7600CF37D5 /* photograph_hover.png */,
+				04EB005A1F284B7600CF37D5 /* scene.png */,
+				04EB005B1F284B7600CF37D5 /* scene_hover.png */,
+				04EB005C1F284B7600CF37D5 /* share.png */,
+				04EB005D1F284B7600CF37D5 /* TopBarBg.png */,
+			);
+			path = beautyView_image;
+			sourceTree = "<group>";
+		};
+		04EB00411F284B7600CF37D5 /* icon_image */ = {
+			isa = PBXGroup;
+			children = (
+				04EB00421F284B7600CF37D5 /* beauty_color.png */,
+				04EB00431F284B7600CF37D5 /* beauty_color_hover.png */,
+				04EB00441F284B7600CF37D5 /* beauty_effect.png */,
+				04EB00451F284B7600CF37D5 /* beauty_effect_hover.png */,
+				04EB00461F284B7600CF37D5 /* beauty_effects.png */,
+				04EB00471F284B7600CF37D5 /* beauty_effects_hover.png */,
+				04EB00481F284B7600CF37D5 /* beauty_Emptiness.png */,
+				04EB00491F284B7600CF37D5 /* beauty_Emptiness_hover.png */,
+				04EB004A1F284B7600CF37D5 /* beauty_frame.png */,
+				04EB004B1F284B7600CF37D5 /* beauty_frame_hover.png */,
+				04EB004C1F284B7600CF37D5 /* beauty_lightdark.png */,
+				04EB004D1F284B7600CF37D5 /* beauty_lightdark_hover.png */,
+				04EB004E1F284B7600CF37D5 /* beauty_Sharpen.png */,
+				04EB004F1F284B7600CF37D5 /* beauty_Sharpen_hover.png */,
+				04EB00501F284B7600CF37D5 /* beauty_word.png */,
+				04EB00511F284B7600CF37D5 /* beauty_word_hover.png */,
+				04EB00521F284B7600CF37D5 /* BeautyMainViewEnvironment.png */,
+				04EB00531F284B7600CF37D5 /* BeautyMainViewEnvironmentHover.png */,
+				04EB00541F284B7600CF37D5 /* BeautyMainViewSeal.png */,
+				04EB00551F284B7600CF37D5 /* BeautyMainViewSealHover.png */,
+				04EB00561F284B7600CF37D5 /* crop.png */,
+				04EB00571F284B7600CF37D5 /* crop_press.png */,
+			);
+			path = icon_image;
+			sourceTree = "<group>";
+		};
+		04EBFFA81F283F8A00CF37D5 = {
+			isa = PBXGroup;
+			children = (
+				04EBFFB31F283F8A00CF37D5 /* poco_CropImage */,
+				04EBFFCD1F283F8A00CF37D5 /* poco_CropImageTests */,
+				04EBFFD81F283F8A00CF37D5 /* poco_CropImageUITests */,
+				04EBFFB21F283F8A00CF37D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EBFFB21F283F8A00CF37D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFFB11F283F8A00CF37D5 /* poco_CropImage.app */,
+				04EBFFCA1F283F8A00CF37D5 /* poco_CropImageTests.xctest */,
+				04EBFFD51F283F8A00CF37D5 /* poco_CropImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EBFFB31F283F8A00CF37D5 /* poco_CropImage */ = {
+			isa = PBXGroup;
+			children = (
+				040319BC1F29E59300FF8827 /* leftBottom@2x.png */,
+				040319BD1F29E59300FF8827 /* leftTop@2x.png */,
+				040319BE1F29E59300FF8827 /* rightBottom@2x.png */,
+				040319BF1F29E59300FF8827 /* rightTop@2x.png */,
+				04EB003C1F284B7600CF37D5 /* beautyView_image */,
+				04EB001F1F28475E00CF37D5 /* Tool */,
+				04EB002E1F28478200CF37D5 /* BeautyViewController */,
+				04EBFFE71F2843C900CF37D5 /* ClipViewController */,
+				04EBFFB71F283F8A00CF37D5 /* AppDelegate.h */,
+				04EBFFB81F283F8A00CF37D5 /* AppDelegate.m */,
+				04EBFFBA1F283F8A00CF37D5 /* ViewController.h */,
+				04EBFFBB1F283F8A00CF37D5 /* ViewController.m */,
+				04EBFFBD1F283F8A00CF37D5 /* Main.storyboard */,
+				04EBFFC01F283F8A00CF37D5 /* Assets.xcassets */,
+				04EBFFC21F283F8A00CF37D5 /* LaunchScreen.storyboard */,
+				04EBFFC51F283F8A00CF37D5 /* Info.plist */,
+				04EBFFB41F283F8A00CF37D5 /* Supporting Files */,
+			);
+			path = poco_CropImage;
+			sourceTree = "<group>";
+		};
+		04EBFFB41F283F8A00CF37D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFFB51F283F8A00CF37D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EBFFCD1F283F8A00CF37D5 /* poco_CropImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFFCE1F283F8A00CF37D5 /* poco_CropImageTests.m */,
+				04EBFFD01F283F8A00CF37D5 /* Info.plist */,
+			);
+			path = poco_CropImageTests;
+			sourceTree = "<group>";
+		};
+		04EBFFD81F283F8A00CF37D5 /* poco_CropImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFFD91F283F8A00CF37D5 /* poco_CropImageUITests.m */,
+				04EBFFDB1F283F8A00CF37D5 /* Info.plist */,
+			);
+			path = poco_CropImageUITests;
+			sourceTree = "<group>";
+		};
+		04EBFFE71F2843C900CF37D5 /* ClipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048A833C1F3852FC001AC113 /* category */,
+				04EBFFE91F2843C900CF37D5 /* View */,
+				04EBFFEA1F2843C900CF37D5 /* ViewController */,
+			);
+			path = ClipViewController;
+			sourceTree = "<group>";
+		};
+		04EBFFE91F2843C900CF37D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFFEE1F28442A00CF37D5 /* ClipView.h */,
+				04EBFFEF1F28442A00CF37D5 /* ClipView.m */,
+				040319B91F29E08800FF8827 /* ClipOverlayView.h */,
+				040319BA1F29E08800FF8827 /* ClipOverlayView.m */,
+				04890ED21F2ACF9500467E4A /* ClipOverlayDrag.h */,
+				04890ED31F2ACF9500467E4A /* ClipOverlayDrag.m */,
+				04890ED81F2B382200467E4A /* ClipOverlayLine.h */,
+				04890ED91F2B382200467E4A /* ClipOverlayLine.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04EBFFEA1F2843C900CF37D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFFEB1F2843DB00CF37D5 /* CropViewController.h */,
+				04EBFFEC1F2843DB00CF37D5 /* CropViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EBFFB01F283F8A00CF37D5 /* poco_CropImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EBFFDE1F283F8A00CF37D5 /* Build configuration list for PBXNativeTarget "poco_CropImage" */;
+			buildPhases = (
+				04EBFFAD1F283F8A00CF37D5 /* Sources */,
+				04EBFFAE1F283F8A00CF37D5 /* Frameworks */,
+				04EBFFAF1F283F8A00CF37D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = poco_CropImage;
+			productName = poco_CropImage;
+			productReference = 04EBFFB11F283F8A00CF37D5 /* poco_CropImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EBFFC91F283F8A00CF37D5 /* poco_CropImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EBFFE11F283F8A00CF37D5 /* Build configuration list for PBXNativeTarget "poco_CropImageTests" */;
+			buildPhases = (
+				04EBFFC61F283F8A00CF37D5 /* Sources */,
+				04EBFFC71F283F8A00CF37D5 /* Frameworks */,
+				04EBFFC81F283F8A00CF37D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EBFFCC1F283F8A00CF37D5 /* PBXTargetDependency */,
+			);
+			name = poco_CropImageTests;
+			productName = poco_CropImageTests;
+			productReference = 04EBFFCA1F283F8A00CF37D5 /* poco_CropImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EBFFD41F283F8A00CF37D5 /* poco_CropImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EBFFE41F283F8A00CF37D5 /* Build configuration list for PBXNativeTarget "poco_CropImageUITests" */;
+			buildPhases = (
+				04EBFFD11F283F8A00CF37D5 /* Sources */,
+				04EBFFD21F283F8A00CF37D5 /* Frameworks */,
+				04EBFFD31F283F8A00CF37D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EBFFD71F283F8A00CF37D5 /* PBXTargetDependency */,
+			);
+			name = poco_CropImageUITests;
+			productName = poco_CropImageUITests;
+			productReference = 04EBFFD51F283F8A00CF37D5 /* poco_CropImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EBFFA91F283F8A00CF37D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = HYD;
+				TargetAttributes = {
+					04EBFFB01F283F8A00CF37D5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S69MK7XEGZ;
+						ProvisioningStyle = Automatic;
+					};
+					04EBFFC91F283F8A00CF37D5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4W968SQ9NT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04EBFFB01F283F8A00CF37D5;
+					};
+					04EBFFD41F283F8A00CF37D5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4W968SQ9NT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04EBFFB01F283F8A00CF37D5;
+					};
+				};
+			};
+			buildConfigurationList = 04EBFFAC1F283F8A00CF37D5 /* Build configuration list for PBXProject "poco_CropImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EBFFA81F283F8A00CF37D5;
+			productRefGroup = 04EBFFB21F283F8A00CF37D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EBFFB01F283F8A00CF37D5 /* poco_CropImage */,
+				04EBFFC91F283F8A00CF37D5 /* poco_CropImageTests */,
+				04EBFFD41F283F8A00CF37D5 /* poco_CropImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EBFFAF1F283F8A00CF37D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB00661F284B7600CF37D5 /* beauty_effects.png in Resources */,
+				04EB00601F284B7600CF37D5 /* enhance.png in Resources */,
+				04EB006C1F284B7600CF37D5 /* beauty_lightdark.png in Resources */,
+				04EB00651F284B7600CF37D5 /* beauty_effect_hover.png in Resources */,
+				04EB00691F284B7600CF37D5 /* beauty_Emptiness_hover.png in Resources */,
+				040319C01F29E59300FF8827 /* leftBottom@2x.png in Resources */,
+				04EB00621F284B7600CF37D5 /* beauty_color.png in Resources */,
+				04EB00641F284B7600CF37D5 /* beauty_effect.png in Resources */,
+				04EB007D1F284B7600CF37D5 /* TopBarBg.png in Resources */,
+				04EB005E1F284B7600CF37D5 /* barBg.png in Resources */,
+				04EB00611F284B7600CF37D5 /* enhanceHover.png in Resources */,
+				04EB00671F284B7600CF37D5 /* beauty_effects_hover.png in Resources */,
+				040319C11F29E59300FF8827 /* leftTop@2x.png in Resources */,
+				04EB006F1F284B7600CF37D5 /* beauty_Sharpen_hover.png in Resources */,
+				04EB00761F284B7600CF37D5 /* crop.png in Resources */,
+				04EB00711F284B7600CF37D5 /* beauty_word_hover.png in Resources */,
+				04EB00681F284B7600CF37D5 /* beauty_Emptiness.png in Resources */,
+				04EB006E1F284B7600CF37D5 /* beauty_Sharpen.png in Resources */,
+				04EBFFC41F283F8A00CF37D5 /* LaunchScreen.storyboard in Resources */,
+				04EB006A1F284B7600CF37D5 /* beauty_frame.png in Resources */,
+				040319C31F29E59300FF8827 /* rightTop@2x.png in Resources */,
+				04EB00741F284B7600CF37D5 /* BeautyMainViewSeal.png in Resources */,
+				04EB00701F284B7600CF37D5 /* beauty_word.png in Resources */,
+				04EB007C1F284B7600CF37D5 /* share.png in Resources */,
+				04EB00631F284B7600CF37D5 /* beauty_color_hover.png in Resources */,
+				04EB00791F284B7600CF37D5 /* photograph_hover.png in Resources */,
+				04EBFFC11F283F8A00CF37D5 /* Assets.xcassets in Resources */,
+				04EB00721F284B7600CF37D5 /* BeautyMainViewEnvironment.png in Resources */,
+				04EBFFF31F2844DF00CF37D5 /* cancel.png in Resources */,
+				040319C21F29E59300FF8827 /* rightBottom@2x.png in Resources */,
+				040319B81F29C1C800FF8827 /* rotate.png in Resources */,
+				04EB006D1F284B7600CF37D5 /* beauty_lightdark_hover.png in Resources */,
+				04EB00771F284B7600CF37D5 /* crop_press.png in Resources */,
+				04EB006B1F284B7600CF37D5 /* beauty_frame_hover.png in Resources */,
+				04EB00731F284B7600CF37D5 /* BeautyMainViewEnvironmentHover.png in Resources */,
+				04EB007B1F284B7600CF37D5 /* scene_hover.png in Resources */,
+				04EBFFF41F2844DF00CF37D5 /* ensure.png in Resources */,
+				04EB005F1F284B7600CF37D5 /* btyView_breakline.png in Resources */,
+				04EB00781F284B7600CF37D5 /* photograph.png in Resources */,
+				04EBFFBF1F283F8A00CF37D5 /* Main.storyboard in Resources */,
+				04EB007A1F284B7600CF37D5 /* scene.png in Resources */,
+				04EB00751F284B7600CF37D5 /* BeautyMainViewSealHover.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBFFC81F283F8A00CF37D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBFFD31F283F8A00CF37D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EBFFAD1F283F8A00CF37D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB00371F2847B400CF37D5 /* BeautyViewController.m in Sources */,
+				04890ED41F2ACF9500467E4A /* ClipOverlayDrag.m in Sources */,
+				04EBFFBC1F283F8A00CF37D5 /* ViewController.m in Sources */,
+				04EB002B1F28475E00CF37D5 /* UIBarButtonItem+HYDBarButtonItem.m in Sources */,
+				04EBFFB91F283F8A00CF37D5 /* AppDelegate.m in Sources */,
+				04EBFFED1F2843DB00CF37D5 /* CropViewController.m in Sources */,
+				04890EDA1F2B382200467E4A /* ClipOverlayLine.m in Sources */,
+				04EB003B1F284AC800CF37D5 /* BottomView.m in Sources */,
+				04EB00801F2883C400CF37D5 /* BeautyButton.m in Sources */,
+				04EBFFB61F283F8A00CF37D5 /* main.m in Sources */,
+				04EB002C1F28475E00CF37D5 /* UIColor+HYDColor.m in Sources */,
+				048A833F1F385343001AC113 /* UIImage+ClipImgae.m in Sources */,
+				040319BB1F29E08800FF8827 /* ClipOverlayView.m in Sources */,
+				04EBFFF01F28442A00CF37D5 /* ClipView.m in Sources */,
+				04EB002D1F28475E00CF37D5 /* UIView+HYDUIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBFFC61F283F8A00CF37D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBFFCF1F283F8A00CF37D5 /* poco_CropImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EBFFD11F283F8A00CF37D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EBFFDA1F283F8A00CF37D5 /* poco_CropImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EBFFCC1F283F8A00CF37D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EBFFB01F283F8A00CF37D5 /* poco_CropImage */;
+			targetProxy = 04EBFFCB1F283F8A00CF37D5 /* PBXContainerItemProxy */;
+		};
+		04EBFFD71F283F8A00CF37D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EBFFB01F283F8A00CF37D5 /* poco_CropImage */;
+			targetProxy = 04EBFFD61F283F8A00CF37D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EBFFBD1F283F8A00CF37D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EBFFBE1F283F8A00CF37D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EBFFC21F283F8A00CF37D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EBFFC31F283F8A00CF37D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EBFFDC1F283F8A00CF37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/poco_CropImage/poco_CropImage/Tool/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EBFFDD1F283F8A00CF37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/poco_CropImage/poco_CropImage/Tool/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EBFFDF1F283F8A00CF37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/poco_CropImage/Tool/PrefixHeader.pch";
+				INFOPLIST_FILE = poco_CropImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HYD.poco-CropImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EBFFE01F283F8A00CF37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S69MK7XEGZ;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/poco_CropImage/Tool/PrefixHeader.pch";
+				INFOPLIST_FILE = poco_CropImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HYD.poco-CropImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04EBFFE21F283F8A00CF37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4W968SQ9NT;
+				INFOPLIST_FILE = poco_CropImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HYD.poco-CropImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poco_CropImage.app/poco_CropImage";
+			};
+			name = Debug;
+		};
+		04EBFFE31F283F8A00CF37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4W968SQ9NT;
+				INFOPLIST_FILE = poco_CropImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HYD.poco-CropImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poco_CropImage.app/poco_CropImage";
+			};
+			name = Release;
+		};
+		04EBFFE51F283F8A00CF37D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4W968SQ9NT;
+				INFOPLIST_FILE = poco_CropImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HYD.poco-CropImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = poco_CropImage;
+			};
+			name = Debug;
+		};
+		04EBFFE61F283F8A00CF37D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4W968SQ9NT;
+				INFOPLIST_FILE = poco_CropImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HYD.poco-CropImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = poco_CropImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EBFFAC1F283F8A00CF37D5 /* Build configuration list for PBXProject "poco_CropImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBFFDC1F283F8A00CF37D5 /* Debug */,
+				04EBFFDD1F283F8A00CF37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EBFFDE1F283F8A00CF37D5 /* Build configuration list for PBXNativeTarget "poco_CropImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBFFDF1F283F8A00CF37D5 /* Debug */,
+				04EBFFE01F283F8A00CF37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EBFFE11F283F8A00CF37D5 /* Build configuration list for PBXNativeTarget "poco_CropImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBFFE21F283F8A00CF37D5 /* Debug */,
+				04EBFFE31F283F8A00CF37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EBFFE41F283F8A00CF37D5 /* Build configuration list for PBXNativeTarget "poco_CropImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EBFFE51F283F8A00CF37D5 /* Debug */,
+				04EBFFE61F283F8A00CF37D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EBFFA91F283F8A00CF37D5 /* Project object */;
+}
